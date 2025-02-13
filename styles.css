@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+.qr-component {
+  background: white;
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 320px;
+}
+
+.qr-component img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+/* Typography improvements */
+.qr-component h1 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.qr-component p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Responsive media query for smaller screens */
+@media (max-width: 375px) {
+  .qr-component {
+    padding: 15px;
+  }
+
+  .qr-component h1 {
+    font-size: 1rem;
+  }
+
+  .qr-component p {
+    font-size: 0.8rem;
+  }
+}
